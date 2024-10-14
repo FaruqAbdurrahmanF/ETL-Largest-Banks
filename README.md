@@ -30,6 +30,7 @@ This project was developed with the following technologies:
 - NumPy (for numerical operations)
 
 ## Project Structure
+bash
 .
 ├── Banks.db                 # SQLite database created after running the code 
 ├── Largest_banks_data.csv    # CSV file created after running the code 
