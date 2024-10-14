@@ -42,10 +42,9 @@ This project was developed with the following technologies:
 
 ## Setup
 ### Clone the repository:
-```
+
 git clone [https://github.com/FaruqAbdurrahmanF/ETL-Largest-Banks](https://github.com/FaruqAbdurrahmanF/ETL-Largest-Banks)
-cd largest-banks-etl
-```
+`cd largest-banks-etl`
 
 ## Install the required Python libraries:
 Before running the code, make sure you have the necessary Python libraries installed. You can install them using pip:
