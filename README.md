@@ -31,12 +31,12 @@ This project was developed with the following technologies:
 
 ## Project Structure
 .
-├── Banks.db                 # SQLite database created after running the code \n
-├── Largest_banks_data.csv    # CSV file created after running the code \n
-├── exchange_rate.csv         # CSV file containing exchange rates \n
-├── code_log.txt              # Log file tracking ETL process stages \n
-├── etl_banks.py              # Main ETL Python script \n
-└── README.md                 # Project documentation (this file) \n
+├── Banks.db                 # SQLite database created after running the code 
+├── Largest_banks_data.csv    # CSV file created after running the code 
+├── exchange_rate.csv         # CSV file containing exchange rates 
+├── code_log.txt              # Log file tracking ETL process stages 
+├── etl_banks.py              # Main ETL Python script 
+└── README.md                 # Project documentation (this file) 
 
 ## Setup
 ### Clone the repository:
@@ -48,11 +48,11 @@ Before running the code, make sure you have the necessary Python libraries insta
 pip install -r requirements.txt
 
 ## Ensure the `exchange_rate.csv` file exists:
-The `exchange_rate.csv` file should contain the exchange rates for converting USD to GBP, EUR, and INR. Below is an example of the CSV format: \n
-Currency,Rate \n
-GBP,0.75 \n
-EUR,0.85 \n
-INR,75.00 \ns
+The `exchange_rate.csv` file should contain the exchange rates for converting USD to GBP, EUR, and INR. Below is an example of the CSV format: 
+Currency,Rate 
+GBP,0.8 
+EUR,0.93 
+INR,82.95 
 
 ## How to Run the Code
 ### Run the ETL script:
