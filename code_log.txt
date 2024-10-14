@@ -1,0 +1,11 @@
+2024-10-14 20:33:06 : Preliminaries complete. Initiating ETL process
+2024-10-14 20:33:06 : Data extraction complete. Initiating Transformation process
+2024-10-14 20:33:06 : Data transformation complete. Initiating loading process
+2024-10-14 20:33:06 : Data saved to CSV file
+2024-10-14 20:33:06 : SQL Connection initiated.
+2024-10-14 20:33:06 : Data loaded to Database as table. Executing queries
+2024-10-14 20:33:06 : Printed the contents of the entire table.
+2024-10-14 20:33:06 : Printed the average market capitalization of all the banks in Billion USD.
+2024-10-14 20:33:06 : Printed the names of the top 5 banks.
+2024-10-14 20:33:06 : Process Complete.
+2024-10-14 20:33:06 : Server Connection closed.
