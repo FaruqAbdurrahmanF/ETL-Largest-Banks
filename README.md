@@ -66,7 +66,7 @@ INR,82.95
 ### Run the ETL script:
 Once you have everything set up, you can run the script:
 ```
-`python etl_banks.py`
+python etl_banks.py
 ```
 
 ## Observe Logs:
