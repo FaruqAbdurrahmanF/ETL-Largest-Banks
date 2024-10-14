@@ -43,7 +43,7 @@ This project was developed with the following technologies:
 ## Setup
 ### Clone the repository:
 ```
-git clone https://github.com/FaruqAbdurrahmanF/ETL-Largest-Banks
+git clone [https://github.com/FaruqAbdurrahmanF/ETL-Largest-Banks](https://github.com/FaruqAbdurrahmanF/ETL-Largest-Banks)
 cd largest-banks-etl
 ```
 
@@ -87,3 +87,6 @@ Each query execution is logged, and the results are printed to the console.
 - Adding error handling for different edge cases during the web scraping process.
 - Implementing additional transformation steps based on more complex business rules.
 - Creating a more sophisticated logging system using Python’s logging library.
+
+## Data Source
+Data is extracted from the Wikipedia page: [List of largest banks.](https://en.wikipedia.org/wiki/List_of_largest_banks)
