@@ -30,35 +30,44 @@ This project was developed with the following technologies:
 - NumPy (for numerical operations)
 
 ## Project Structure
-bash
+```
 .
-├── Banks.db                 # SQLite database created after running the code 
+├── Banks.db                  # SQLite database created after running the code 
 ├── Largest_banks_data.csv    # CSV file created after running the code 
 ├── exchange_rate.csv         # CSV file containing exchange rates 
 ├── code_log.txt              # Log file tracking ETL process stages 
-├── etl_banks.py              # Main ETL Python script 
+├── banks_project.py          # Main ETL Python script 
 └── README.md                 # Project documentation (this file) 
+```
 
 ## Setup
 ### Clone the repository:
+```
 git clone https://github.com/FaruqAbdurrahmanF/ETL-Largest-Banks
 cd largest-banks-etl
+```
 
 ## Install the required Python libraries:
 Before running the code, make sure you have the necessary Python libraries installed. You can install them using pip:
+```
 pip install -r requirements.txt
+```
 
 ## Ensure the `exchange_rate.csv` file exists:
 The `exchange_rate.csv` file should contain the exchange rates for converting USD to GBP, EUR, and INR. Below is an example of the CSV format: 
+```
 Currency,Rate 
 GBP,0.8 
 EUR,0.93 
-INR,82.95 
+INR,82.95
+```
 
 ## How to Run the Code
 ### Run the ETL script:
 Once you have everything set up, you can run the script:
+```
 `python etl_banks.py`
+```
 
 ## Observe Logs:
 During the execution of the ETL process, progress is logged in the `code_log.txt` file. Each stage of the process, from extraction to transformation and loading, is recorded with timestamps.
